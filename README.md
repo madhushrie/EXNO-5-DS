@@ -73,6 +73,7 @@ plt.title('Crop Yields in Kanto')
 plt.legend(['Apples', 'Oranges'])
 ```
 <img width="870" height="612" alt="image" src="https://github.com/user-attachments/assets/9d62ca7d-2a9d-4d33-bb19-1dc074313de8" />
+
 ```
 yield_apples = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
 plt.plot(yield_apples)
@@ -113,10 +114,13 @@ x=[0,1,2,3,4,5]
 y=[10,20,4,16,30,40]
 plt.scatter(x,y,s=30,color="red")
 plt.show()
+
 ```
 
 <img width="767" height="522" alt="image" src="https://github.com/user-attachments/assets/8a277d15-b73b-4bf1-93c3-dd5ea21f7fd3" />
 ```
+
+
 x=[0,1,2,3,4,5]
 y=[10,20,4,16,30,40]
 plt.scatter(x,y,marker="*",color="blue")
@@ -125,21 +129,28 @@ plt.ylabel("Y-AXIS")
 plt.title("SCATTER PLOT")
 plt.legend()
 plt.show()
+
+
 ```
 
 <img width="773" height="547" alt="image" src="https://github.com/user-attachments/assets/f9d34201-6107-43d3-9cb6-717029ab3857" />
+
 ```
+
 import numpy as np
 import pandas as pd
 x=np.arange(0,10)
 y=np.arange(11,21)
 x
+
 ```
+
 <img width="507" height="36" alt="image" src="https://github.com/user-attachments/assets/c0b73ab9-ee20-4680-9d83-40c948a4f7a7" />
 
 ```
 y
 ```
+
 <img width="576" height="40" alt="image" src="https://github.com/user-attachments/assets/027fc6b6-9358-4da0-a4a1-774ea84f09dd" />
 
 ```
@@ -149,6 +160,7 @@ plt.ylabel("Y-AXIS")
 plt.title("GRAPH IN 2D")
 plt.savefig("Test.png")
 ```
+
 <img width="777" height="567" alt="image" src="https://github.com/user-attachments/assets/72c2fd52-9150-4c57-9e8e-506815467219" />
 
 
