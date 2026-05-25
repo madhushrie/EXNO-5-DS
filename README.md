@@ -107,6 +107,7 @@ plt.ylabel("YIELD(tons per hectare)")
 plt.title("YIELD OF ORANGES AND APPLES(tons per hectare)")
 plt.legend(["oranges","apples"])
 ```
+
 <img width="862" height="606" alt="image" src="https://github.com/user-attachments/assets/d8578800-7da8-4a35-a746-daf8d36e8f71" />
 
 ```
@@ -118,6 +119,8 @@ plt.show()
 ```
 
 <img width="767" height="522" alt="image" src="https://github.com/user-attachments/assets/8a277d15-b73b-4bf1-93c3-dd5ea21f7fd3" />
+
+
 ```
 
 
